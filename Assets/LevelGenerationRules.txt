@@ -1,0 +1,8 @@
+-minden hatodik talaj helyen legyen szakadek
+-ket szakadek ne legyen egymas utan, hacsak elotte nem volt 2.v. 3. szint
+-minden 2. talaj folott legyen emelet
+- minden 2. level1 felett legyen level2
+-minden 3. talaj/emelet-en legyen erme
+-minden 4. talajon/emeleten legyen szorny
+-ha se erme, se szorny nem kerult le, akkor  50% esellyel legyen ott doboz
+-a palya elejen es vegen legyen 3 sima talaj
