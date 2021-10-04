@@ -22,7 +22,12 @@ public class PlayerController : MonoBehaviour
         }
         animator.SetInteger("PlayerAnimState", 1);
         transform.position = transform.position + direction;
-        
+        Vector3 s = transform.localScale;
+        if (direction.x < 0) transform.localScale =
+                        new Vector3(-Mathf.Abs(s.x), s.y, s.z);
+        else transform.localScale = new Vector3(Mathf.Abs(s.x), s.y, s.z);
+
+
     }
 
     // Update is called once per frame
